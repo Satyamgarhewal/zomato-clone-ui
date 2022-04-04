@@ -1,0 +1,122 @@
+.card-container {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #ddd; */
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card-image img {
+  height: 248px;
+  width: 328px;
+  border: 1px transparent;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.card-body .card-offer {
+  position: absolute;
+  top: 228px;
+  left: 10px;
+  padding: 0 5px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background-color: #d92662;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.card-body .card-distance {
+  position: absolute;
+  top: 225px;
+  right: 15px;
+  padding: 2px 5px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #000;
+  background-color: #ddd;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.card-info-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-basic-info {
+  flex: 0 1 250px;
+}
+
+.card-rating-info {
+  flex: 0 1 100px;
+  position: relative;
+}
+
+.card-rating {
+  position: absolute;
+  right: 0;
+  padding: 1px 3px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px transparent;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+
+.card-price-info {
+  margin-top: 30px;
+  padding: 0;
+  float: right;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  letter-spacing: 0.5px;
+}
+
+.card-basic-info {
+  display: grid;
+  grid-template-columns: 240px;
+  grid-template-rows: 30px 30px 30px;
+}
+
+.card-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.card-subtitle {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: rgb(163, 163, 163);
+}
+.card-details {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: rgb(163, 163, 163);
+}
+
+.card-container:focus {
+  box-shadow: 10px 16px 10px rgb(0, 0, 2, 0.2);
+  transition: 0.3s;
+}
+
+.card-container:hover {
+  box-shadow: 4px 4px 10px 8px rgb(0, 0, 2, 0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}

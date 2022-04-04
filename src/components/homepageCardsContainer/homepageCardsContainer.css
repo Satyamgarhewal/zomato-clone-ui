@@ -1,0 +1,10 @@
+.homepage-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 30px;
+  padding: 20px 0;
+}
