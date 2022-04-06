@@ -9,7 +9,7 @@ export default function HomepageCardsContainer() {
       <div className="homepage-card-container">
         {num.map((items, i) => {
           return (
-            <div>
+            <div key={i}>
               <ProductCard />
             </div>
           );

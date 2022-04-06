@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 10px;
+  gap: 50px;
   border-bottom: 1px solid #ddd;
   position: relative;
   /* padding: 200px; */
@@ -18,7 +18,9 @@
   align-items: center;
   gap: 10px;
   border-bottom: 2px solid #fe7f8b;
+  border-width: 200%;
   cursor: pointer;
+  text-decoration: none;
 }
 .delivery-icon {
   font-size: 40px;
@@ -34,8 +36,12 @@
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
+  text-decoration: none;
 }
 
+.delivery-active {
+  border-bottom: 2px solid #fe7f8b;
+}
 .dining {
   flex: 0 0 200px;
   border: transparent;
