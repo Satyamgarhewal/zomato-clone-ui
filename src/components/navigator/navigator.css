@@ -17,10 +17,11 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-bottom: 2px solid #fe7f8b;
+  /* border-bottom: 2px solid #fe7f8b; */
   border-width: 200%;
   cursor: pointer;
   text-decoration: none;
+  padding: 0px 20px;
 }
 .delivery-icon {
   font-size: 40px;
@@ -40,8 +41,10 @@
 }
 
 .delivery-active {
-  border-bottom: 2px solid #fe7f8b;
+  /* border-bottom: 2px solid #fe7f8b; */
 }
+
+/* Dining */
 .dining {
   flex: 0 0 200px;
   border: transparent;
@@ -51,8 +54,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-bottom: 2px solid #fe7f8b;
+  /* border-bottom: 2px solid #fe7f8b; */
   cursor: pointer;
+  padding: 0px 20px;
 }
 
 .dining-icon {
@@ -71,6 +75,7 @@
   font-weight: 600;
 }
 
+/* Nightlife */
 .nightlife {
   flex: 0 0 200px;
   border: transparent;
@@ -80,8 +85,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-bottom: 2px solid #fe7f8b;
+  /* border-bottom: 2px solid #fe7f8b; */
   cursor: pointer;
+  padding: 0px 20px;
 }
 
 .nightlife-icon {
@@ -98,4 +104,10 @@
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
+}
+
+.active {
+  border-bottom: 2px solid #fe7f8b;
+  color: #fe7f8b;
+  /* padding: 0px 20px; */
 }
