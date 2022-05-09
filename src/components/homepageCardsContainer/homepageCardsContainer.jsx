@@ -9,7 +9,8 @@ export default function HomepageCardsContainer() {
   let navigate = useNavigate();
   const handleCardClick = (e) => {
     console.log('--------!!!!!!!!', e.target);
-    navigate('/diningout/1');
+    const id = e.target.id;
+    navigate(`/diningout/${id}`);
   };
   return (
     <>
@@ -17,14 +18,10 @@ export default function HomepageCardsContainer() {
         {num.map((items, i) => {
           return (
             <div key={i} onClick={handleCardClick}>
-              <ProductCard />
+              <ProductCard index={i} />
             </div>
           );
         })}
-        {/* <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard /> */}
       </div>
     </>
   );

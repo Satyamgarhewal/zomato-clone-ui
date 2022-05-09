@@ -2,6 +2,7 @@ import React, { useReducer } from 'react';
 import './navbar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
+import { Link } from 'react-router-dom';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -31,7 +32,9 @@ function Navbar(props) {
     <>
       <div className="header-container">
         <div className="header-logo">
-          <h1 className="header-logo-heading">zomato</h1>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <h1 className="header-logo-heading">zomato</h1>
+          </Link>
         </div>
         <div className="header-fields">
           <form className="header-form">

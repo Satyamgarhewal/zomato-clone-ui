@@ -7,16 +7,18 @@ import './homepage.css';
 import Navbar from '../../components/navbar/navbar.jsx';
 import HomepageCardsContainer from '../../components/homepageCardsContainer/homepageCardsContainer.jsx';
 import Navigator from '../../components/navigator/navigator.jsx';
+import HomepageCarousel from '../../components/homepage-carousel/homepage-carousel.jsx';
+import HomePageMenu from '../../components/homepage-menu/HomepageMenu.jsx';
 
 function Homepage(props) {
   return (
     <>
       <div className="homepage-container">
-        <div className="homepage-navbar">
-          <Navbar />
+        <div className="homepage-carousel">
+          <HomepageCarousel />
         </div>
         <div>
-          <Navigator />
+          <HomePageMenu />
         </div>
         <div>
           {/* <ProductCard /> */}

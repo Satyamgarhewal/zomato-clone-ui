@@ -1,0 +1,20 @@
+.homepage-carousel-container {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
+
+  height: 400px;
+  width: 100vw;
+  background-image: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_1280.jpg');
+}
+
+.homepage-carousel-image {
+  height: 400px;
+  width: 100vw;
+  display: absolute;
+}
+
+.homepage-carousel-navbar {
+  margin-top: 0;
+}

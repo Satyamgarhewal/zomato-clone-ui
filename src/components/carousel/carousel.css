@@ -1,0 +1,16 @@
+.carousel-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: flex;
+  height: 400px;
+}
+
+.carousel-image {
+  /* align-items: center; */
+  flex: 0 1 200px;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
